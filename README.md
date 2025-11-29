@@ -40,3 +40,6 @@
 **Citation / 参考文献：**  
 - Zhu, P., Wen, L., Bian, X., Haibin, L., & Hu, Q. (2021). *Vision Meets Drones: A Challenge.* arXiv:2001.06303.  
   [https://github.com/VisDrone/DroneVehicle](https://github.com/VisDrone/DroneVehicle)
+
+❤️ Acknowledgment / 致谢
+感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
