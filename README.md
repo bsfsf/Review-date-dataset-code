@@ -37,19 +37,22 @@
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1Oe7g_4c5XHPeuFsqphmumg) Code:4av6
 - [Google Drive / 谷歌网盘](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
 
-📝 **Citation / 参考文献：**  
+   📝 **Citation / 参考文献**：
+
+```bibtex
 @article{sun2022drone,
-  title={Drone-based RGB-infrared cross-modality vehicle detection via uncertainty-aware learning},  
+  title={Drone-based RGB-infrared cross-modality vehicle detection via uncertainty-aware learning},
   author={Sun, Yiming and Cao, Bing and Zhu, Pengfei and Hu, Qinghua},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   volume={32},
-  number={10}, 
+  number={10},
   pages={6700--6713},
   year={2022},
   publisher={IEEE}
 }
 
 
-❤️ **Acknowledgment / 致谢**
+
+   ❤️ **Acknowledgment / 致谢**
 
 - 感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
