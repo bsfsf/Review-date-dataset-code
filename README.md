@@ -39,22 +39,14 @@
 
 📝 **Citation / 参考文献：**  
 @article{sun2022drone,
-  title={Drone-based RGB-infrared cross-modality vehicle detection via uncertainty-aware learning},
-  
+  title={Drone-based RGB-infrared cross-modality vehicle detection via uncertainty-aware learning},  
   author={Sun, Yiming and Cao, Bing and Zhu, Pengfei and Hu, Qinghua},
- 
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
- 
   volume={32},
-
-  number={10},
- 
+  number={10}, 
   pages={6700--6713},
-  
   year={2022},
- 
   publisher={IEEE}
-
 }
 
 
