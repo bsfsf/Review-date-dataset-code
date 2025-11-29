@@ -42,4 +42,5 @@
   [https://github.com/VisDrone/DroneVehicle](https://github.com/VisDrone/DroneVehicle)
 
 ❤️ Acknowledgment / 致谢
-感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
+
+- 感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
