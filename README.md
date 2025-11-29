@@ -37,7 +37,7 @@
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1Oe7g_4c5XHPeuFsqphmumg) Code:4av6
 - [Google Drive / 谷歌网盘](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
 
-**Citation / 参考文献：**  
+📝 **Citation / 参考文献：**  
 - Zhu, P., Wen, L., Bian, X., Haibin, L., & Hu, Q. (2021). *Vision Meets Drones: A Challenge.* arXiv:2001.06303.  
   [https://github.com/VisDrone/DroneVehicle](https://github.com/VisDrone/DroneVehicle)
 
