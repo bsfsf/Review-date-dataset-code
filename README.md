@@ -38,9 +38,18 @@
 - [Google Drive / 谷歌网盘](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
 
 📝 **Citation / 参考文献：**  
-- Zhu, P., Wen, L., Bian, X., Haibin, L., & Hu, Q. (2021). *Vision Meets Drones: A Challenge.* arXiv:2001.06303.  
-  [https://github.com/VisDrone/DroneVehicle](https://github.com/VisDrone/DroneVehicle)
+@article{sun2022drone,
+  title={Drone-based RGB-infrared cross-modality vehicle detection via uncertainty-aware learning},
+  author={Sun, Yiming and Cao, Bing and Zhu, Pengfei and Hu, Qinghua},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={32},
+  number={10},
+  pages={6700--6713},
+  year={2022},
+  publisher={IEEE}
+}
 
-❤️ Acknowledgment / 致谢
+
+❤️ **Acknowledgment / 致谢**
 
 - 感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
