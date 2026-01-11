@@ -1,9 +1,9 @@
 ## DroneVehicle-Night Subset Overview
 
 **DroneVehicle-Night** is a curated nighttime subset derived from the **DroneVehicle** dataset.  
-    It is constructed by selectively extracting visible-light images with distinct nighttime characteristics and converting the original annotation files into a unified format.We would like to express our sincere gratitude to the original contributors of the **DroneVehicle** dataset, the **VisDrone Team at Tianjin University**, for their invaluable efforts and publicly available resources 🙏.
+It is constructed by selectively extracting visible-light images with distinct nighttime characteristics and converting the original annotation files into a unified format.We would like to express our sincere gratitude to the original contributors of the **DroneVehicle** dataset, the **VisDrone Team at Tianjin University**, for their invaluable efforts and publicly available resources 🙏.
 
-The dataset contains **10,357 training image pairs, 868 validation image pairs, and 6,013 test image pairs**, with each image having a resolution of **840 × 712 pixels**.Based on the original XML annotations, all labels are converted into **Oriented Bounding Box (OBB)** annotations. Compared with conventional horizontal bounding boxes, OBB annotations are more suitable for object detection in complex UAV aerial scenarios, especially under nighttime conditions.
+The dataset contains **10,357 training image pairs, 868 validation image pairs, and 6,013 test image pairs**, with each image having a resolution of **840 × 712 pixels**.Based on the original XML annotations, all labels are converted into **Oriented Bounding Box (OBB)** annotations.   Compared with conventional horizontal bounding boxes, OBB annotations are more suitable for object detection in complex UAV aerial scenarios, especially under nighttime conditions.
 
 The dataset covers a wide range of typical nighttime UAV scenes, including **urban roads, residential areas, and parking lots**.Target categories mainly focus on vehicle-related objects, as detailed below:
 
