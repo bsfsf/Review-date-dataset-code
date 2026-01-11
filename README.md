@@ -73,8 +73,8 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 
 
 ## 🔗 Download
-- [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1Oe7g_4c5XHPeuFsqphmumg) Code:4av6
-- [Google Drive / 谷歌网盘](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
+- [Baidu Netdisk](https://pan.baidu.com/s/1Oe7g_4c5XHPeuFsqphmumg) (Code:4av6)
+- [Google Drive](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
 
 📝 **Citation**：
 
@@ -91,6 +91,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 }
 
 
-❤️ **Acknowledgment**
+## ❤️ Acknowledgment
 
-- 感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
+- We sincerely thank the **VisDrone Team (Tianjin University)** for providing the original **DroneVehicle** dataset.
+
