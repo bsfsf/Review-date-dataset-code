@@ -47,7 +47,7 @@
 | Faster R-CNN  | TPAMI 2017  | ResNet-50       | IR       | 89.8 | 47.4 | 52.2 | 88.2 | 48.0 | 65.1 |
 | RetinaNet     | ICCV 2017   | ResNet-50       | IR       | 89.1 | 18.2 | 35.3 | 70.3 | 32.9 | 49.2 |
 | S²A-Net       | TGRS 2021   | ResNet-50       | IR       | 89.4 | 41.8 | **56.6** | 88.9 | 45.8 | 64.5 |
-| YOLOv8        | Ultralytics 2023 | CSPDarkNet53 | IR | **98.1** | 69.3 | 75.8 | **96.5** | 58.7 | 79.7 |
+| YOLOv8s       | Ultralytics 2023 | CSPDarkNet53 | IR | **98.1** | 69.3 | 75.8 | **96.5** | 58.7 | 79.7 |
 
 ---
 
