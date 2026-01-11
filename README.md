@@ -20,7 +20,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 ### 📊 Dataset Statistics
 
 | Split | Images | Resolution | Annotation Type |
-|------|--------|------------|-----------------|
+|:------:|:-----------:|:--------:|:--------:|
 | **Train** | 10,357 | 840 × 712 | OBB |
 | **Val** | 868 | 840 × 712 | OBB |
 | **Test** | 6,013 | 840 × 712 | OBB |
