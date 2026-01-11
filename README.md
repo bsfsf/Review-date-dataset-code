@@ -91,7 +91,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 }
 
 
-## ❤️ Acknowledgment
+❤️ Acknowledgment
 
 - We sincerely thank the **VisDrone Team (Tianjin University)** for providing the original **DroneVehicle** dataset.
 
