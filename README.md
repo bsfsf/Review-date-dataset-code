@@ -59,10 +59,10 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 |---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
 | CFT           | arXiv 2022  | CSPDarkNet53    | RGB+IR   | 97.4 | 71.2 | 75.5 | 96.3 | 61.6 | 80.4 |
 | CALNet        | ACM MM 2023 | CSPDarkNet53    | RGB+IR   | 89.8 | 72.6 | 68.9 | 88.8 | 59.0 | 75.8 |
-| C²Former      | TGRS 2024   | ResNet-50      | RGB+IR   | 90.0 | 67.2 | 62.9 | 89.1 | 57.8 | 73.4 |
-| ICARFusion    | PR 2024     | CSPDarkNet53   | RGB+IR   | **98.1** | 77.2 | **81.2** | 96.1 | 64.0 | 83.3 |
-| DAMSDet       | ECCV 2024   | ResNet-50      | RGB+IR   | 95.8 | 72.5 | 79.4 | 94.2 | 64.0 | 81.2 |
-| M³D-LIF       | ICCV 2025   | CSPDarkNet53   | RGB+IR   | 97.6 | **80.9** | 76.0 | 96.1 | **68.9** | **83.9** |
+| C²Former      | TGRS 2024   | ResNet-50       | RGB+IR   | 90.0 | 67.2 | 62.9 | 89.1 | 57.8 | 73.4 |
+| ICAFusion     | PR 2024     | CSPDarkNet53    | RGB+IR   | **98.1** | 77.2 | **81.2** | 96.1 | 64.0 | 83.3 |
+| DAMSDet       | ECCV 2024   | ResNet-50       | RGB+IR   | 95.8 | 72.5 | 79.4 | 94.2 | 64.0 | 81.2 |
+| M²D-LIF       | ICCV 2025   | CSPDarkNet53    | RGB+IR   | 97.6 | **80.9** | 76.0 | 96.1 | **68.9** | **83.9** |
 | MS2Fusion     | Inf. Fusion 2025 | CSPDarkNet53 | RGB+IR | 98.2 | 75.4 | 79.2 | 96.2 | 65.2 | 82.8 |
 
 **Notes:**
