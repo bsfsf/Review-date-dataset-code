@@ -27,11 +27,11 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 
   
   
-## 📊 Benchmark Results on DroneVehicle-Night
+## ⭐ Benchmark Results on DroneVehicle-Night
 
 **Table Simple performance evaluation on the DroneVehicle-Night dataset**
 
-### RGB-based Methods
+## RGB-based Methods
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
 |---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
@@ -42,7 +42,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 
 ---
 
-### Infrared-based Methods
+## Infrared-based Methods
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
 |---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
@@ -53,7 +53,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 
 ---
 
-### RGB-IR Fusion Methods
+## RGB-IR Fusion Methods
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
 |---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
