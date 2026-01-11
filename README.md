@@ -33,19 +33,19 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 
 ## RGB-based Methods
 
-| Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
-|---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
-| Faster R-CNN  | TPAMI 2017  | ResNet-50       | RGB      | 74.9 | 27.5 | 28.0 | 77.4 | 40.3 | 49.6 |
-| RetinaNet     | ICCV 2017   | ResNet-50       | RGB      | 72.5 | 12.2 | 23.4 | 49.4 | 31.0 | 37.7 |
-| S²A-Net       | TGRS 2021   | ResNet-50       | RGB      | 72.2 | 21.1 | 23.8 | 78.1 | 36.8 | 46.4 |
-| YOLOv8s       | Ultralytics 2023 | CSPDarkNet53 | RGB | 88.6 | 45.7 | 52.5 | 89.6 | 52.3 | 65.7 |
+| Method | Publication | Backbone | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
+|:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
+| Faster R-CNN | TPAMI 2017 | ResNet-50 | RGB | 74.9 | 27.5 | 28.0 | 77.4 | 40.3 | 49.6 |
+| RetinaNet | ICCV 2017 | ResNet-50 | RGB | 72.5 | 12.2 | 23.4 | 49.4 | 31.0 | 37.7 |
+| S²A-Net | TGRS 2021 | ResNet-50 | RGB | 72.2 | 21.1 | 23.8 | 78.1 | 36.8 | 46.4 |
+| YOLOv8s | Ultralytics 2023 | CSPDarkNet53 | RGB | 88.6 | 45.7 | 52.5 | 89.6 | 52.3 | 65.7 |
 
 ---
 
 ## Infrared-based Methods
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
-|---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
+|:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | Faster R-CNN  | TPAMI 2017  | ResNet-50       | IR       | 89.8 | 47.4 | 52.2 | 88.2 | 48.0 | 65.1 |
 | RetinaNet     | ICCV 2017   | ResNet-50       | IR       | 89.1 | 18.2 | 35.3 | 70.3 | 32.9 | 49.2 |
 | S²A-Net       | TGRS 2021   | ResNet-50       | IR       | 89.4 | 41.8 | **56.6** | 88.9 | 45.8 | 64.5 |
@@ -56,7 +56,7 @@ Target categories mainly focus on vehicle-related objects, as detailed below:
 ## RGB-IR Fusion Methods
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
-|---------------|-------------|-----------------|----------|-----|-------|-------------|-----|-----|--------|
+|:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | CFT           | arXiv 2022  | CSPDarkNet53    | RGB+IR   | 97.4 | 71.2 | 75.5 | 96.3 | 61.6 | 80.4 |
 | CALNet        | ACM MM 2023 | CSPDarkNet53    | RGB+IR   | 89.8 | 72.6 | 68.9 | 88.8 | 59.0 | 75.8 |
 | C²Former      | TGRS 2024   | ResNet-50       | RGB+IR   | 90.0 | 67.2 | 62.9 | 89.1 | 57.8 | 73.4 |
