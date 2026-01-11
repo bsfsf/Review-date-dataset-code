@@ -1,31 +1,33 @@
-# DroneVehicle-Night夜间子集简介
+## DroneVehicle-Night Subset Overview
 
-  **DroneVehicle-Night**数据集基于 **DroneVehicle** 数据集筛选和处理得到，主要提取了其中具有夜间特征的可见光图像，并在原始标注文件基础上进行了格式转换。  
-  在此对 **DroneVehicle** 数据集的原始贡献者 **天津大学VisDrone团队** 致以诚挚感谢 🙏。   
+**DroneVehicle-Night** is a curated nighttime subset derived from the **DroneVehicle** dataset.  
+It is constructed by selectively extracting visible-light images with distinct nighttime characteristics and converting the original annotation files into a unified format.
 
-  包含 **10,357 对训练图像、868 对验证图像和 6,013 对测试图像**，每幅图像分辨率为 **840×712 像素**。  
-  在原始 XML 标注文件的基础上，经过格式转换，生成了以 **旋转边界框（Oriented Bounding Box, OBB）** 为核心的标注文件，相较于传统水平边界框更适合无人机航拍等复杂场景下的检测任务。数据涵盖多种典型无人机视角下的夜间场景，包括 **城市道路、居民区、停车场** 等。  目标类别主要集中在车辆相关目标，包括：
+We would like to express our sincere gratitude to the original contributors of the **DroneVehicle** dataset, the **VisDrone Team at Tianjin University**, for their invaluable efforts and publicly available resources 🙏.
 
-  🚗 Car：241,285 个实例
+The dataset contains **10,357 training image pairs, 868 validation image pairs, and 6,013 test image pairs**, with each image having a resolution of **840 × 712 pixels**.  
+Based on the original XML annotations, all labels are converted into **Oriented Bounding Box (OBB)** annotations. Compared with conventional horizontal bounding boxes, OBB annotations are more suitable for object detection in complex UAV aerial scenarios, especially under nighttime conditions.
 
-  🚚 Truck：9,305 个实例
+The dataset covers a wide range of typical nighttime UAV scenes, including **urban roads, residential areas, and parking lots**.  
+Target categories mainly focus on vehicle-related objects, as detailed below:
 
-  🚌 Bus：9,846 个实例
+- 🚗 **Car**: 241,285 instances  
+- 🚚 **Truck**: 9,305 instances  
+- 🚌 **Bus**: 9,846 instances  
+- 🚐 **Van**: 7,405 instances  
+- 🚛 **Freight Car**: 7,978 instances  
 
-  🚐 Van：7,405 个实例 
+### 📊 Dataset Statistics
 
-  🚛 Freight Car：7,978 个实例
+| Split | Images | Resolution | Annotation Type |
+|------|--------|------------|-----------------|
+| **Train** | 10,357 | 840 × 712 | OBB |
+| **Val** | 868 | 840 × 712 | OBB |
+| **Test** | 6,013 | 840 × 712 | OBB |
 
-
-  📊 Dataset Statistics / 数据集规模
-  | Split     | Images | Resolution | Annotation Type |
-  | --------- | ------ | ---------- | --------------- |
-  | **Train** | 10,357 | 840×712    | OBB             |
-  | **Val**   | 868    | 840×712    | OBB             |
-  | **Test**  | 6,013  | 840×712    | OBB             |
   
   
-  ## 📊 Benchmark Results on DroneVehicle-Night
+## 📊 Benchmark Results on DroneVehicle-Night
 
 **Table Simple performance evaluation on the DroneVehicle-Night dataset**
 
@@ -64,17 +66,17 @@
 | MS2Fusion     | Inf. Fusion 2025 | CSPDarkNet53 | RGB+IR | 98.2 | 75.4 | 79.2 | 96.2 | 65.2 | 82.8 |
 
 **Notes:**
-- All results are evaluated on the **DroneVehicle-Night** test set.
+- All results are evaluated on the **DroneVehicle-Night** Val set.
 - Metrics are reported in **mAP@0.5 (%)**.
 - Bold numbers indicate the **best performance** in each column.
 - Backbone and modality information follow the original implementations.
 
 
-## 🔗 Download / 下载地址
+## 🔗 Download
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1Oe7g_4c5XHPeuFsqphmumg) Code:4av6
 - [Google Drive / 谷歌网盘](https://drive.google.com/file/d/1kjbTMPQSJsbf_XD5Hi1T1A7F8ukaugHx/view?usp=sharing)
 
-📝 **Citation / 参考文献**：
+📝 **Citation**：
 
 ```bibtex
 @article{sun2022drone,
@@ -89,6 +91,6 @@
 }
 
 
-❤️ **Acknowledgment / 致谢**
+❤️ **Acknowledgment**
 
 - 感谢 VisDrone Team (TJU) 提供原始 DroneVehicle 数据集支持。
