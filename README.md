@@ -31,9 +31,9 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 
 | Method | Publication | Backbone | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
-| Faster R-CNN | TPAMI 2017 | ResNet-50 | RGB | 74.9 | 27.5 | 28.0 | 77.4 | 40.3 | 49.6 |
-| RetinaNet | ICCV 2017 | ResNet-50 | RGB | 72.5 | 12.2 | 23.4 | 49.4 | 31.0 | 37.7 |
-| S²A-Net | TGRS 2021 | ResNet-50 | RGB | 72.2 | 21.1 | 23.8 | 78.1 | 36.8 | 46.4 |
+| Faster R-CNN | TPAMI 2017 | ResNet50 | RGB | 74.9 | 27.5 | 28.0 | 77.4 | 40.3 | 49.6 |
+| RetinaNet | ICCV 2017 | ResNet50 | RGB | 72.5 | 12.2 | 23.4 | 49.4 | 31.0 | 37.7 |
+| S²A-Net | TGRS 2021 | ResNet50 | RGB | 72.2 | 21.1 | 23.8 | 78.1 | 36.8 | 46.4 |
 | YOLOv8s | Ultralytics 2023 | CSPDarkNet53 | RGB | **88.6** | **45.7** | **52.5** | **89.6** | **52.3** | **65.7** |
 
 ---
@@ -42,9 +42,9 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 
 | Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
-| Faster R-CNN  | TPAMI 2017  | ResNet-50       | IR       | 89.8 | 47.4 | 52.2 | 88.2 | 48.0 | 65.1 |
-| RetinaNet     | ICCV 2017   | ResNet-50       | IR       | 89.1 | 18.2 | 35.3 | 70.3 | 32.9 | 49.2 |
-| S²A-Net       | TGRS 2021   | ResNet-50       | IR       | 89.4 | 41.8 | 56.6 | 88.9 | 45.8 | 64.5 |
+| Faster R-CNN  | TPAMI 2017  | ResNet50       | IR       | 89.8 | 47.4 | 52.2 | 88.2 | 48.0 | 65.1 |
+| RetinaNet     | ICCV 2017   | ResNet50       | IR       | 89.1 | 18.2 | 35.3 | 70.3 | 32.9 | 49.2 |
+| S²A-Net       | TGRS 2021   | ResNet50       | IR       | 89.4 | 41.8 | 56.6 | 88.9 | 45.8 | 64.5 |
 | YOLOv8s       | Ultralytics 2023 | CSPDarkNet53 | IR | **98.1** | **69.3** | **75.8** | **96.5** | **58.7** | **79.7** |
 
 ---
@@ -55,9 +55,9 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | CFT           | arXiv 2022  | CSPDarkNet53    | RGB+IR   | 97.4 | 71.2 | 75.5 | **96.3** | 61.6 | 80.4 |
 | CALNet        | ACM MM 2023 | CSPDarkNet53    | RGB+IR   | 89.8 | 72.6 | 68.9 | 88.8 | 59.0 | 75.8 |
-| C²Former      | TGRS 2024   | ResNet-50       | RGB+IR   | 90.0 | 67.2 | 62.9 | 89.1 | 57.8 | 73.4 |
+| C²Former      | TGRS 2024   | ResNet50       | RGB+IR   | 90.0 | 67.2 | 62.9 | 89.1 | 57.8 | 73.4 |
 | ICAFusion     | PR 2024     | CSPDarkNet53    | RGB+IR   | 98.1 | 77.2 | **81.2** | 96.1 | 64.0 | 83.3 |
-| DAMSDet       | ECCV 2024   | ResNet-50       | RGB+IR   | 95.8 | 72.5 | 79.4 | 94.2 | 64.0 | 81.2 |
+| DAMSDet       | ECCV 2024   | ResNet50       | RGB+IR   | 95.8 | 72.5 | 79.4 | 94.2 | 64.0 | 81.2 |
 | M²D-LIF       | ICCV 2025   | CSPDarkNet53    | RGB+IR   | 97.6 | **80.9** | 76.0 | 96.1 | **68.9** | **83.9** |
 | MS2Fusion     | Inf. Fusion 2025 | CSPDarkNet53 | RGB+IR | **98.2** | 75.4 | 79.2 | 96.2 | 65.2 | 82.8 |
 
