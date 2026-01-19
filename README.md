@@ -29,7 +29,7 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 
 ## RGB-based Methods
 
-| Method | Publication | Backbone | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
+| Method | Publication | Backbone | Modality | Car | Truck | Freight_car | Bus | Van | mAP50 |
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | Faster R-CNN | TPAMI 2017 | ResNet50 | RGB | 74.9 | 27.5 | 28.0 | 77.4 | 40.3 | 49.6 |
 | RetinaNet | ICCV 2017 | ResNet50 | RGB | 72.5 | 12.2 | 23.4 | 49.4 | 31.0 | 37.7 |
@@ -40,7 +40,7 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 
 ## Infrared-based Methods
 
-| Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
+| Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP50 |
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | Faster R-CNN  | TPAMI 2017  | ResNet50       | IR       | 89.8 | 47.4 | 52.2 | 88.2 | 48.0 | 65.1 |
 | RetinaNet     | ICCV 2017   | ResNet50       | IR       | 89.1 | 18.2 | 35.3 | 70.3 | 32.9 | 49.2 |
@@ -51,7 +51,7 @@ The dataset covers a wide range of typical nighttime UAV scenes, including **urb
 
 ## RGB-IR Fusion Methods
 
-| Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP@50 |
+| Method        | Publication | Backbone        | Modality | Car | Truck | Freight_car | Bus | Van | mAP50 |
 |:------:|:-----------:|:--------:|:--------:|:---:|:-----:|:-----------:|:---:|:---:|:------:|
 | CFT           | arXiv 2022  | CSPDarkNet53    | RGB+IR   | 97.4 | 71.2 | 75.5 | **96.3** | 61.6 | 80.4 |
 | CALNet        | ACM MM 2023 | CSPDarkNet53    | RGB+IR   | 89.8 | 72.6 | 68.9 | 88.8 | 59.0 | 75.8 |
